@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>弹框demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../dist/sweetalert.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="../dist/sweetalert.min.js"></script>
+    </head>
+    <body>
+        
+        <button id='alert'>弹框</button>
+    </body>
+    <script>
+        $('#alert').click(function(){
+            swal("Here's a message!");
+        });
+    
+    </script>
+</html>
