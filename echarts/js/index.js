@@ -83,7 +83,7 @@ var fields,
     tbody_tr  = '';
         function getData(){
             $.ajax({
-                url      : 'data0.json',
+                url      : 'INDEX.json',
                 dataType : 'json', 
                 async    : false,
                 type     : 'get',
